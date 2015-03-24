@@ -15,5 +15,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/index.html.twig');
     }
+    
+    /**
+     * @Route("/mirage.html", name="mirage")
+    */
+    public function  mirageAction()
+    {
+        return $this->render('default/mirage.html.twig');
+    }
 
 }
