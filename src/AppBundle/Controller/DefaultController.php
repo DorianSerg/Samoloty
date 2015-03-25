@@ -23,5 +23,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/mirage.html.twig');
     }
+    
+    /**
+     * @Route("/panavia.html", name="panavia")
+    */
+    public function  panaviaAction()
+    {
+        return $this->render('default/panavia.html.twig');
+    }
+
 
 }
