@@ -25,6 +25,14 @@ class DefaultController extends Controller
     }
     
     /**
+     * @Route("/lincoln.html", name="lincoln")
+    */
+    public function  lincolnAction()
+    {
+        return $this->render('default/lincoln.html.twig');
+    }
+    
+    /**
      * @Route("/panavia.html", name="panavia")
     */
     public function  panaviaAction()
