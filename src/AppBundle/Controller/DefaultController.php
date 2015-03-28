@@ -40,5 +40,12 @@ class DefaultController extends Controller
         return $this->render('default/panavia.html.twig');
     }
 
+     /**
+     * @Route("/eurofighter.html", name="eurofighter")
+    */
+    public function  eurofighterAction()
+    {
+        return $this->render('default/eurofighter.html.twig');
+    }
 
 }
