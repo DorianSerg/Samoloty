@@ -55,4 +55,12 @@ class DefaultController extends Controller
     {
         return $this->render('default/dromader.html.twig');
     }
+    
+    /**
+     * @Route("/douglas.html", name="douglas")
+    */
+    public function  douglasAction()
+    {
+        return $this->render('default/douglas.html.twig');
+    }
 }
