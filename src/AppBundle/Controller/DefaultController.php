@@ -48,4 +48,11 @@ class DefaultController extends Controller
         return $this->render('default/eurofighter.html.twig');
     }
 
+    /**
+     * @Route("/dromader.html", name="dromader")
+    */
+    public function  dromaderAction()
+    {
+        return $this->render('default/dromader.html.twig');
+    }
 }
