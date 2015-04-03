@@ -63,4 +63,20 @@ class DefaultController extends Controller
     {
         return $this->render('default/douglas.html.twig');
     }
+
+    /**
+     * @Route("/A320.html", name="A320")
+    */
+    public function  A320Action()
+    {
+        return $this->render('default/A320.html.twig');
+    }
+    
+    /**
+     * @Route("/boeing737.html", name="boeing737")
+    */
+    public function  boeing737Action()
+    {
+        return $this->render('default/boeing737.html.twig');
+    }
 }
