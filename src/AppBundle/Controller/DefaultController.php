@@ -79,4 +79,12 @@ class DefaultController extends Controller
     {
         return $this->render('default/boeing737.html.twig');
     }
+    /**
+     * @Route("/PZL_37.html", name="PZL_37")
+     */
+    public function PZL_37Action()
+    {
+	return $this->render('default/PZL_37.html.twig');
+    }
+
 }
